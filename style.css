@@ -1,0 +1,39 @@
+html,body {
+  background-color: #f4f8fb;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #0077b6;
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+select,
+input,
+button {
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f8f;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #023e8a;
+}
