@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Time Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">Swim Time Converter</h1>
+<label for="event">Choose Event:</label>
+<select id="event">
+  <option value="50 Free">50 Free</option>
+  <option value="100 Free">100 Free</option>
+  <option value="200 Free">200 Free</option>
+
+  <option value="50 Back">50 Back</option>
+  <option value="100 Back">100 Back</option>
+  <option value="200 Back">200 Back</option>
+
+  <option value="50 Breast">50 Breast</option>
+  <option value="100 Breast">100 Breast</option>
+  <option value="200 Breast">200 Breast</option>
+
+  <option value="50 Fly">50 Fly</option>
+  <option value="100 Fly">100 Fly</option>
+  <option value="200 Fly">200 Fly</option>
+
+  <option value="100 IM">100 IM</option>
+  <option value="200 IM">200 IM</option>
+
+</select>
+
+<br><br>
+
+<label for="from">From:</label>
+<select id="from">
+  <option value="SCY">SCY</option>
+  <option value="SCM">SCM</option>
+  <option value="LCM">LCM</option>
+</select>
+
+<label for="to">To:</label>
+<select id="to">
+  <option value="SCY">SCY</option>
+  <option value="SCM">SCM</option>
+  <option value="LCM">LCM</option>
+</select>
+
+<br><br>
+
+<input type="number" id="timeInput" placeholder="Enter time">
+<button id="convertBtn">Convert</button>
+<p id="result"></p>
+  <script src="script.js"></script>
+</body>
+</html>
